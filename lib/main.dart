@@ -4,5 +4,6 @@ import 'package:web_view_android/screen/home_screen.dart';
 void main() {
   runApp(MaterialApp(
     home: HomeScreen(),
+    debugShowCheckedModeBanner: false,
   ));
 }
